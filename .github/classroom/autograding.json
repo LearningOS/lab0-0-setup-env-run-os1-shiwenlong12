@@ -1,9 +1,9 @@
 {
   "tests": [
     {
-      "name": "rust_os8",
+      "name": "run_os1",
       "setup": "",
-      "run": "make test8",
+      "run": "make test1",
       "input": "",
       "output": "",
       "comparison": "included",
