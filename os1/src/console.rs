@@ -1,8 +1,10 @@
 /*！
-
 本模块实现了 print 和 println 宏。
-
 */
+
+//实现基于 Write Trait 的数据结构，并完成 Write Trait 所需要的 write_str 函数，
+//并用 print 函数进行包装。
+//最后，基于 print 函数，实现Rust语言 格式化宏 ( formatting macros )。
 
 use crate::sbi::console_putchar;
 use core::fmt::{self, Write};

@@ -1,9 +1,13 @@
+// 告诉 Rust 编译器不使用 Rust 标准库 std 转而使用核心库 core
 #![no_std]
+//告诉编译器我们没有一般意义上的 main 函数， 并将原来的 main 函数删除。这样编译器也就不需要考虑初始化工作了
 #![no_main]
+
 #![feature(panic_info_message)]
 
 use log::*;
 
+//为了能够用到 console.rs 提供的功能，需要添加对 console 的引用
 #[macro_use]
 mod console;
 mod lang_items;
