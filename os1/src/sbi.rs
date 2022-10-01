@@ -1,3 +1,4 @@
+//// bootloader/rustsbi-qemu.bin 直接添加的SBI规范实现的二进制代码，给操作系统提供基本支持服务
 #![allow(unused)]
 
 const SBI_SET_TIMER: usize = 0;

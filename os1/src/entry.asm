@@ -1,3 +1,4 @@
+# 用另一段汇编代码初始化栈空间：
     .section .text.entry
     .globl _start
 _start:
