@@ -1,9 +1,9 @@
 /*！
-
 本模块实现了 print 和 println 宏。
-
 */
 
+//代码中使用到了 sbi.rs 文件中的console_putchar方法，
+//需要说明在文件头部声明use crate::sbi::console_putchar;
 use crate::sbi::console_putchar;
 use core::fmt::{self, Write};
 
